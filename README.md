@@ -39,7 +39,7 @@ ESP32 membaca kelembaban tanah, menampilkan data ke LCD, dan menyiram tanaman ot
 
 ### 🖼️ Diagram Blok Sistem
 
-![Diagram Blok Sistem](Tubes%20IOT-Diagram%20blok%20sistem.png)
+![Diagram Blok Sistem](Tubes%20IOT-Diagram%20blok%20sistem.jpg)
 
 **Penjelasan Diagram:**  
 Diagram di atas menunjukkan hubungan antar komponen utama. Sensor kelembaban tanah mengirim data ke ESP32, yang kemudian memproses informasi tersebut. Jika tanah dalam kondisi kering, ESP32 akan mengaktifkan **Relay Module** yang akan menyalakan **Mini Water Pump** untuk menyiram tanaman. Informasi kelembaban juga ditampilkan di **LCD** melalui modul I2C. Sistem mendapat suplai daya dari **Li-ion Battery 5V** atau sumber daya eksternal.
