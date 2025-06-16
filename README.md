@@ -43,3 +43,11 @@ ESP32 membaca kelembaban tanah, menampilkan data ke LCD, dan menyiram tanaman ot
 
 **Penjelasan Diagram:**  
 Diagram di atas menunjukkan hubungan antar komponen utama. Sensor kelembaban tanah mengirim data ke ESP32, yang kemudian memproses informasi tersebut. Jika tanah dalam kondisi kering, ESP32 akan mengaktifkan **Relay Module** yang akan menyalakan **Mini Water Pump** untuk menyiram tanaman. Informasi kelembaban juga ditampilkan di **LCD** melalui modul I2C. Sistem mendapat suplai daya dari **Li-ion Battery 5V** atau sumber daya eksternal.
+
+### 🖼️ Implementasi HardWare
+
+![Implementasi Hardware](implementasi%20hardware.png)
+
+Sistem pada gambar berikut merupakan implementasi hardware untuk proyek IoT penyiraman tanaman otomatis berbasis ESP32. Sensor soil moisture digunakan untuk mendeteksi tingkat kelembapan tanah dan mengirimkan data ke ESP32. Berdasarkan data tersebut, ESP32 mengendalikan modul relay untuk menyalakan atau mematikan pompa air mini secara otomatis. Seluruh status sistem, termasuk kelembapan tanah dan kondisi pompa, ditampilkan pada layar LCD 16x2 melalui modul I2C. Semua komponen mendapatkan daya dari sumber eksternal 5VDC agar sistem dapat berjalan secara stabil dan efisien.
+
+
