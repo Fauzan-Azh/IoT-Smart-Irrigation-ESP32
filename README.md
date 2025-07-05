@@ -75,7 +75,7 @@ Sistem terintegrasi dengan platform **Blynk IoT** yang memungkinkan pengguna:
 
 ### Aplikasi Mobile
 
-![Tampilan Blynk Mobile](./iPhone%2016%20-%201.png)
+![Tampilan Blynk Mobile](./tampilan%20mobile.png)
 
 - Menampilkan **gauge** nilai kelembapan tanah (V0).
 - Tombol **ON/OFF** kontrol manual pompa (V1).
